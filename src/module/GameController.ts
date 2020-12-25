@@ -61,6 +61,7 @@ export default class GameController {
   isEat(X: number, Y: number): void {
     const {X: foodX, Y: foodY} = this.food
     if (X === foodX && Y === foodY) {
+      console.log('eat')
       this.scorePanel.addScore()
       this.food.refresh()
       this.snake.addBody()

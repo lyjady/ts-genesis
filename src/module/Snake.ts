@@ -42,9 +42,11 @@ export default class Snake {
 
   moveBody(): void {
     for (let i = this.bodies.length - 1; i > 0; i--) {
-      console.log((this.bodies[i] as HTMLElement).style.top, (this.bodies[i] as HTMLElement).style.left);
-      (this.bodies[i] as HTMLElement).style.top = (this.bodies[i - 1] as HTMLElement).offsetTop + 'px';
-      (this.bodies[i] as HTMLElement).style.left = (this.bodies[i - 1] as HTMLElement).offsetLeft + 'px';
+      let X = (this.bodies[i - 1] as HTMLElement).offsetLeft;
+      let Y = (this.bodies[i - 1] as HTMLElement).offsetTop;
+
+      (this.bodies[i] as HTMLElement).style.left = X + 'px';
+      (this.bodies[i] as HTMLElement).style.top = Y + 'px';
     }
   }
 }

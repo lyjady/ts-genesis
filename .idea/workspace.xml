@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cbf06d9-25a2-43ff-91ce-b3348ca47512" name="Default Changelist" comment="">
+    <list default="true" id="3cbf06d9-25a2-43ff-91ce-b3348ca47512" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/GameController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/GameController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/Snake.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/Snake.ts" afterDir="false" />
     </list>
@@ -92,11 +90,36 @@
       <workItem from="1608618046129" duration="1462000" />
       <workItem from="1608779635730" duration="9000" />
       <workItem from="1608779670469" duration="6000" />
-      <workItem from="1608856825442" duration="4479000" />
+      <workItem from="1608856825442" duration="4551000" />
+      <workItem from="1608876471167" duration="901000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1608863573126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608863573126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
